@@ -90,3 +90,16 @@ a{
 .main .banner {
     margin-bottom: 120px;
 }
+.header2 .navbar ul a:hover{
+    color: #fd4c82;
+
+}
+.header2 .navbar ul .btn:hover{
+    color: black;
+
+}
+.container .button a:hover{
+    color: black;
+    transition: .3s;
+
+}
