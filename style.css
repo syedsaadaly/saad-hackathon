@@ -1,0 +1,82 @@
+*{
+    font-family: "Roboto", Arial, sans-serif;
+}
+body{
+    background-color: #999999;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Start of nav */
+.main .header1 {
+    display: flex;
+    justify-content: space-between;
+}
+.padding{
+    padding: 10px 60px;
+}
+.main{
+    background-image: url(./asset/images/bg_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 641px;
+
+}
+.main .li a{
+    text-decoration: none;
+    color: black;
+    gap:40px;
+    background-color: white;
+}
+:root{
+    --primary-color:#fd4c82;
+    --secondary-color:#91c235;
+
+}
+.header2 .logo img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.header2 {
+    font-weight: 600;
+}
+.navbar .btn{
+    background-color: var(--primary-color);
+    color: white;
+}
+.navbar .btn:hover{
+    color: black;
+}
+
+/* end of nav */
+
+/* start of banner */
+.main .banner .heading{
+    font-weight: 700;
+}
+.banner .button{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+.banner .button a{
+    color: white;
+}
+.banner .button .mp{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.banner .button .phone{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
