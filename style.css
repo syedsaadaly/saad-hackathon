@@ -53,7 +53,7 @@ a{
 /* end of nav */
 
 /* start of banner */
-.main .banner .heading{
+ .banner .heading{
     font-weight: 700;
 }
 .banner .button{
@@ -65,6 +65,9 @@ a{
 .banner .button a{
     color: white;
 }
+.banner .heading{
+    padding-top: 100px;
+}
 .banner .button .mp{
     background-color: var(--primary-color);
     padding: 10px;
@@ -74,9 +77,12 @@ a{
 .banner .button .phone{
     background-color: var(--secondary-color);
     border-radius: 5px;
+    padding: 10px;
     text-align: center;
 }
-
-
-
-
+@media screen and (max-width: 792px){
+    
+       .main .header1{
+            display: none;
+        }
+    }
